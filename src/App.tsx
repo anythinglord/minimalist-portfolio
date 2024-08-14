@@ -1,4 +1,5 @@
 import './App.css'
+import { Skills } from './components/Skills'
 
 function App() {
   return (
@@ -47,41 +48,7 @@ function App() {
           quidem pariatur.</p>
       </section>
       <section className="skills">
-        <h3>Skills</h3>
-        <div className="skills-container">
-          <span className="skill-box">
-            <i className="fa-brands fa-html5"></i>
-            HTML
-          </span>
-          <span className="skill-box">
-            <i className="fa-brands fa-css3-alt"></i>
-            CSS
-          </span>
-          <span className="skill-box">
-            <i className="fa-brands fa-js"></i>
-            JavaScript
-          </span>
-          <span className="skill-box">TypeScript</span>
-          <span className="skill-box">MySQL</span>
-          <span className="skill-box">
-            <i className="fa-brands fa-git-alt"></i>
-            Git
-          </span>
-          <span className="skill-box">
-            <i className="fa-brands fa-github"></i>
-            Github
-          </span>
-          <span className="skill-box">
-            <i className="fa-brands fa-gitlab"></i>
-            Gitlab
-          </span>
-          <span className="skill-box">
-            <i className="fa-brands fa-react"></i>
-            React</span>
-          <span className="skill-box">
-            <i className="fa-brands fa-docker"></i>
-            Docker</span>
-        </div>
+        <Skills />
       </section>
     </div>
   )
