@@ -7,38 +7,87 @@
     <link rel="icon" type="image/x-icon" href="/assets/code.ico">
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    * {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
     .content {
         width: 600px;
         display: flex;
         flex-direction: column;
         margin: 60px auto 0 auto;
     }
+
+    h3 {
+        font-weight: 500;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    .role {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .location {
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .image {
+        border-radius: 15px;
+    }
+
+    .about {
+        margin-top: 35px;
+    }
 </style>
 <body>
     <div class="content">
         <div class="header">
-            Nan
-            Full Stack Developer +4 years
-            <img src="" alt="image">
+            <div class="info">
+                <span class="name">Jesus Salcedo</span>
+                <span class="role">Full Stack JavaScript Developer +4 years</span>
+                <span class="location">Bogota, Colombia</span>
+            </div>
+            <img class="image" src="/assets/photo.jpeg" alt="image" height="85" width="80">
         </div>
         <div class="about">
-            About me
+            <h3>About me</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error, itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut quidem pariatur.</p>
         </div>
         <div class="experience">
-            Professional Experience
+            <h3>Professional Experience</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error, itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut quidem pariatur.</p>
         </div>
         <div class="experience">
-            Education
+            <h3>Education</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error, itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut quidem pariatur.</p>
         </div>
         <div class="projects">
-            Projects
+            <h3>Projects</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error, itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut quidem pariatur.</p>
         </div>
         <div class="skills">
-            Skills
+            <h3>Skills</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error, itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut quidem pariatur.</p>
         </div> 
     </div>

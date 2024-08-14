@@ -1,2 +1,5 @@
 # Minimalist porfolio
-html, css
+
+## 🛠️ Stack
+- [**html**]
+- [**css**]
