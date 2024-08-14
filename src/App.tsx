@@ -1,4 +1,5 @@
 import './App.css'
+import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 
 function App() {
@@ -14,9 +15,12 @@ function App() {
       </section>
       <section className="about">
         <h3>About me</h3>
-        <p className="text">+4 years of professional experience like software web developer. Currently i am woking
-          like fullstack developer, living in bogota, Colombia. i have been working in the construction
-          side creating a diferent solutions across some finland companies</p>
+        <p className="text">With over four years of professional experience as a web software developer, 
+        I am currently working as a Full Stack Developer. My career has been focused on designing and 
+        implementing a wide range of innovative solutions across multiple companies. I have played a key role in constructing robust, 
+        scalable applications, and my expertise spans both front-end and back-end development. 
+        This experience has equipped me with the skills necessary to handle complex projects, ensuring that I can deliver high-quality, 
+        efficient software solutions tailored to meet specific business needs.</p>
       </section>
       <div className="experience">
         <h3>Professional Experience</h3>
@@ -42,10 +46,7 @@ function App() {
         <span className="role">Systems and Computer Engineer</span>
       </section>
       <section className="projects">
-        <h3>Projects</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto laboriosam repellat! Error,
-          itaque? Corporis iste animi eum alias voluptates doloribus, ipsum dolore vitae aliquam error laborum ut
-          quidem pariatur.</p>
+        <Projects />
       </section>
       <section className="skills">
         <Skills />

@@ -62,7 +62,7 @@ h3 {
 }
 
 .about {
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 /* experience section*/
@@ -82,7 +82,54 @@ h3 {
 
 /* projects section */
 .projects {
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 165px;
+    max-width: 165px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.card-text {
+    padding: 7px 0 25px 0;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.note {
+    background-color: #eee;
+    font-size: 9px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    width: fit-content;
 }
 
 /* start skills section */
