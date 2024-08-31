@@ -16,7 +16,7 @@ export const Projects: React.FC = ({ }: Props) => {
                 className="card-name">
                 {smash.title}
               </a>
-              <a target="blank" href={smash.url} style={{ color: '#000' }}>
+              <a target="blank" href={smash.github} style={{ color: '#000' }}>
                 <i className='fa-brands fa-github'/>
               </a>  
             </div>

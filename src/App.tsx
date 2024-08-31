@@ -8,7 +8,7 @@ function App() {
       <section className="header">
         <div className="info">
           <span className="name">Jesus Salcedo</span>
-          <span className="role">Full Stack JavaScript Developer +4 years</span>
+          <span className="role">Software Engineer +4 years</span>
           <span className="location">Bogota, Colombia</span>
         </div>
         <img className="image" src="/assets/photo.jpeg" alt="image" height="85" width="80"/>
@@ -28,7 +28,7 @@ function App() {
           <a target="blank" href="https://ihme3d.com/en/" className="company-name">Ihme3d</a>
           <span className="text">2020 - current</span>
         </div>
-        <span className="role">Full Stack Developer</span>
+        <span className="role">Software Engineer</span>
         <p className="text">
           I develop the second stage the mainly cost calculator application to another finland company,
           enabling the users another way to desing, create, plan construction`s projects, setting up the correct location,

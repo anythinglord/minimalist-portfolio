@@ -6,48 +6,33 @@ interface Skill {
 interface Project {
     title: string
     link?: string
-    url?: string // github link
+    github?: string // github link
     description: string
     notes?: Array<string>
 }
 
 export const SkillSmash: Array<Skill> = [
-    { name: 'HTML',icon: 'fa-html5' },
-    { name: 'CSS',icon: 'fa-css3-alt' },
-    { name: 'JavaScript',icon: 'fa-js' },
-    { name: 'TypeScript',icon: 'fa-ts' },
-    { name: 'MySQL',icon: 'fa-mysql' },
+    { name: 'Python',icon: 'fa-python' },
+    { name: 'TensorFlow',icon: 'fa-python' },
+    { name: 'ScikitLearn',icon: 'fa-python' },
+    { name: 'Keras',icon: 'fa-python' },
+    { name: 'Django',icon: 'fa-python' },
     { name: 'Git',icon: 'fa-git-alt' },
     { name: 'Github',icon: 'fa-github' },
-    { name: 'Gitlab',icon: 'fa-gitlab' },
-    { name: 'React',icon: 'fa-react' },
     { name: 'Docker',icon: 'fa-docker' },
-];
+]
 
 export const ProjectSmash: Array<Project> = [
     { 
-        title: 'Buiding app', link: 'https://building-app-six.vercel.app/', 
-        url: 'https://github.com/anythinglord/building-app',
-        description: 'area & costs calculator to simple building projects', notes: ['in development', 'typescript'] 
+        title: 'Ai Journey', link: '', 
+        github: 'https://github.com/anythinglord/ai-journey',
+        description: 'Approach to construction of hybrid AI models optimized by Deep Neuroevolution, with ML, AI and DL', 
+        notes: ['in development', 'ai', 'cnn-vae', 'tensorflow'] 
     },
     { 
-        title: 'EPS Journey', link: '', url: '',
-        description: 'Simple alternative to local health promoting entity', 
-        notes: ['in development', 'typescript','mui', 'firebase'] 
+        title: 'Task Manager', link: '', 
+        github: 'https://github.com/anythinglord/django-mysql',
+        description: 'Task Management application built with Django, python and SQLite', 
+        notes: ['in development', 'django',''] 
     },
-    { 
-        title: 'Micro frontend', link: '', 
-        url: 'https://github.com/anythinglord/micro-frontend',
-        description: 'Microfrontends implementation', notes: ['in development', 'mui'] 
-    },
-    { 
-        title: 'Minimalist porfolio', link: '', 
-        url: 'https://github.com/anythinglord/minimalist-portfolio',
-        description: 'minimalist portfolio', notes: ['in development', 'typescript'] 
-    },
-    { 
-        title: 'Minecraft clone', link: 'https://minecraft-clone-alpha.vercel.app/', 
-        url: 'https://github.com/anythinglord/minecraft-clone',
-        description: 'simple minecraft clone built with react', notes: ['in development', 'javascript'] 
-    }
 ]

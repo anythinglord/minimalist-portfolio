@@ -1,7 +1,9 @@
 import { SkillSmash } from "../data"
+
 interface Props { }
 
-export const Skills: React.FC = ({ }: Props) => {
+export const Skills = ({  }: Props) => {
+  
   return (
     <div>
       <h3>Skills</h3>
