@@ -28,7 +28,12 @@ export const ProjectSmash: Array<Project> = [
     { 
         title: 'Buiding app', link: 'https://building-app-six.vercel.app/', 
         url: 'https://github.com/anythinglord/building-app',
-        description: '', notes: ['in development'] 
+        description: 'area & costs calculator to simple building projects', notes: ['in development', 'typescript'] 
+    },
+    { 
+        title: 'EPS Journey', link: '', url: '',
+        description: 'Simple alternative to local health promoting entity', 
+        notes: ['in development', 'typescript','mui', 'firebase'] 
     },
     { 
         title: 'Micro frontend', link: '', 
@@ -38,10 +43,10 @@ export const ProjectSmash: Array<Project> = [
     { 
         title: 'Minimalist porfolio', link: '', 
         url: 'https://github.com/anythinglord/minimalist-portfolio',
-        description: 'minimalist portfolio built with react', notes: ['in development', 'typescript'] 
+        description: 'minimalist portfolio', notes: ['in development', 'typescript'] 
     },
     { 
-        title: 'Minecraft clone', link: '', 
+        title: 'Minecraft clone', link: 'https://minecraft-clone-alpha.vercel.app/', 
         url: 'https://github.com/anythinglord/minecraft-clone',
         description: 'simple minecraft clone built with react', notes: ['in development', 'javascript'] 
     }
