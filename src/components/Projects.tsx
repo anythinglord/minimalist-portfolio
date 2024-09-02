@@ -9,7 +9,7 @@ export const Projects: React.FC = ({ }: Props) => {
       <h3>Projects</h3>
       <div className="card-container">
         {ProjectSmash.map((smash, index) => (
-          <div className="card" key={index}>
+          <div className={`card ${smash.fav ? 'box-gradient': ''}`} key={index}>
             <div className="card-header">
               <a
                 target="blank" href={smash.link}

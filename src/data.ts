@@ -9,6 +9,7 @@ interface Project {
     url?: string // github link
     description: string
     notes?: Array<string>
+    fav?: boolean 
 }
 
 export const SkillSmash: Array<Skill> = [
@@ -26,14 +27,16 @@ export const SkillSmash: Array<Skill> = [
 
 export const ProjectSmash: Array<Project> = [
     { 
+        title: 'MediCare', link: 'https://eps-journey.vercel.app', 
+        url: '',
+        fav: true,
+        description: 'Simple alternative to local health promoting entity', 
+        notes: ['in development', 'typescript','mui', 'firebase'] 
+    },
+    { 
         title: 'Buiding app', link: 'https://building-app-six.vercel.app/', 
         url: 'https://github.com/anythinglord/building-app',
         description: 'area & costs calculator to simple building projects', notes: ['in development', 'typescript'] 
-    },
-    { 
-        title: 'EPS Journey', link: '', url: '',
-        description: 'Simple alternative to local health promoting entity', 
-        notes: ['in development', 'typescript','mui', 'firebase'] 
     },
     { 
         title: 'Micro frontend', link: '', 
