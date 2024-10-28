@@ -30,11 +30,10 @@ function App() {
         </div>
         <span className="role">Full Stack Developer</span>
         <p className="text">
-          I develop the second stage the mainly cost calculator application to another finland company,
-          enabling the users another way to desing, create, plan construction`s projects, setting up the correct location,
-          using the provider <i>Mapbox</i> also the drag&drop utilities to provide a new user experience,
-          thinking in the posibility to see in the real time the calculation of costs using the structures and
-          another data like a base.
+        I contribute to the development of the second phase of a comprehensive cost calculator application for a Finnish company. 
+        This solution empowers users to design, create, and plan construction projects with enhanced precision by integrating location 
+        data via Mapbox and utilizing drag-and-drop functionalities to improve the overall user experience. The system also supports 
+        real-time cost calculations based on project structures and additional data, offering a more dynamic and intuitive approach to project planning.
         </p>
       </div>
       <section className="experience">
