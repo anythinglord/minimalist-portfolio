@@ -33,6 +33,12 @@ export const ProjectSmash: Array<Project> = [
         title: 'Task Manager', link: '', 
         github: 'https://github.com/anythinglord/django-mysql',
         description: 'Task Management application built with Django, python and SQLite', 
-        notes: ['in development', 'django',''] 
+        notes: ['in development', 'django','python'] 
+    },
+    { 
+        title: 'Task Manager', link: '', 
+        github: 'https://github.com/anythinglord/flask-api',
+        description: 'Task Management application built with Flask, python', 
+        notes: ['in development', 'flask','python'] 
     },
 ]
