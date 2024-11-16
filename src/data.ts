@@ -45,23 +45,11 @@ export const ProjectSmash: Array<Project> = [
         notes: ['in development','react' ,'typescript','mui', 'firebase'] 
     },
     { 
-        title: 'Buiding app', link: 'https://building-app-six.vercel.app/', 
-        url: 'https://github.com/anythinglord/building-app',
+        title: 'Fly diary', link: '', 
+        url: 'https://github.com/anythinglord/flight-diary',
         show_url: true,
-        description: 'Area & costs calculator to simple building projects', 
-        notes: ['in development', 'react', 'typescript'] 
-    },
-    { 
-        title: 'Task Manager', link: '', 
-        url: 'https://github.com/anythinglord/django-mysql',
-        show_url: true,
-        description: 'Simple task management app', notes: ['in development', 'django', 'python'] 
-    },
-    { 
-        title: 'Micro frontend', link: '', 
-        url: 'https://github.com/anythinglord/micro-frontend',
-        show_url: true,
-        description: 'Microfrontends implementation', notes: ['in development', 'mui'] 
+        description: 'Flight Diary built with React, Typescript + Integration with Nodejs API', 
+        notes: ['in development', 'react', 'typescript', 'nodejs'] 
     },
     { 
         title: 'Minimalist porfolio', link: '', 
