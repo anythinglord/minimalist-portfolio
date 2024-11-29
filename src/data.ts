@@ -27,18 +27,6 @@ export const ProjectSmash: Array<Project> = [
         title: 'Ai Journey', link: '', 
         github: 'https://github.com/anythinglord/ai-journey',
         description: 'Approach to construction of hybrid AI models optimized by Deep Neuroevolution, with ML, AI and DL', 
-        notes: ['in development', 'ai', 'cnn-vae', 'tensorflow'] 
-    },
-    { 
-        title: 'Task Manager', link: '', 
-        github: 'https://github.com/anythinglord/django-mysql',
-        description: 'Task Management application built with Django, python and SQLite', 
-        notes: ['in development', 'django','python'] 
-    },
-    { 
-        title: 'Task Manager', link: '', 
-        github: 'https://github.com/anythinglord/flask-api',
-        description: 'Task Management application built with Flask, python', 
-        notes: ['in development', 'flask','python'] 
+        notes: ['in development', 'ai', 'ML', 'cnn-vae', 'tensorflow'] 
     },
 ]
