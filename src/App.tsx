@@ -8,19 +8,21 @@ function App() {
       <section className="header">
         <div className="info">
           <span className="name">Jesus Salcedo</span>
-          <span className="role">Full Stack JavaScript Developer +4 years</span>
+          <span className="role">Software Engineer +4 years</span>
           <span className="location">Bogota, Colombia</span>
         </div>
         <img className="image" src="/assets/photo.jpeg" alt="image" height="85" width="80"/>
       </section>
       <section className="about">
         <h3>About me</h3>
-        <p className="text">With over four years of professional experience as a web software developer, 
-        I am currently working as a Full Stack Developer. My career has been focused on designing and 
-        implementing a wide range of innovative solutions across multiple companies. I have played a key role in constructing robust, 
-        scalable applications, and my expertise spans both front-end and back-end development. 
-        This experience has equipped me with the skills necessary to handle complex projects, ensuring that I can deliver high-quality, 
-        efficient software solutions tailored to meet specific business needs.</p>
+        <p className="text">With over four years of professional experience as a software engineer, I am currently working as a developer.
+        My expertise is centered around <b>React with TypeScript and JavaScript</b>, building scalable and high-performance applications. 
+        As a full-stack developer, I have been involved in the entire development lifecycle, from design to deployment. Additionally, 
+        I have experience working with <b>PHP, Symfony, and MySQL</b>.</p>
+
+        <p className="text">Currently, I am working on personal projects focused on <b>React, TypeScript, Redux, Node.js, Express, Prisma ORM, and MongoDB</b>. 
+          I am designing and developing full-stack applications, handling both frontend and backend processes to build scalable and efficient solutions
+        </p>
       </section>
       <div className="experience">
         <h3>Professional Experience</h3>
@@ -28,12 +30,15 @@ function App() {
           <a target="blank" href="https://ihme3d.com/en/" className="company-name">Ihme3d</a>
           <span className="text">2020 - current</span>
         </div>
-        <span className="role">Full Stack Developer</span>
+        <span className="role">Software Engineer</span>
         <p className="text">
-        I contribute to the development of the second phase of a comprehensive cost calculator application for a Finnish company. 
-        This solution empowers users to design, create, and plan construction projects with enhanced precision by integrating location 
-        data via Mapbox and utilizing drag-and-drop functionalities to improve the overall user experience. The system also supports 
-        real-time cost calculations based on project structures and additional data, offering a more dynamic and intuitive approach to project planning.
+        Develop a platform that allows users to create construction projects and an API for consuming information.
+        Improve services to support the load of hundreds of requests per day. Help reduce calculation times and reduce costs through existing database structures..
+        </p>
+        <p className="text">
+        actively participated in the requirements gathering processes necessary for configurators for several clients who required multiple products. 
+        This process included processes ranging from building and/or modifying configurators that allowed <b>3D product views in the browser</b> and the
+        possibility to generate quote files and other files needed by clients..
         </p>
       </div>
       <section className="experience">
