@@ -3,7 +3,7 @@ interface Props { }
 
 export const Skills: React.FC = ({ }: Props) => {
   return (
-    <div>
+    <div className="skills-index">
       <h3>Skills</h3>
       <div className="skills-container">
         {SkillSmash.map((smash, index) => (
