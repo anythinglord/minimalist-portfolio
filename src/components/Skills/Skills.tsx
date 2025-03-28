@@ -1,7 +1,7 @@
-import { SkillSmash } from "../data"
-interface Props { }
+import { SkillSmash } from "../../data"
+import "./index.css"
 
-export const Skills: React.FC = ({ }: Props) => {
+export const Skills: React.FC = () => {
   return (
     <div className="skills-index">
       <h3>Skills</h3>
@@ -9,7 +9,6 @@ export const Skills: React.FC = ({ }: Props) => {
         {SkillSmash.map((smash, index) => (
           <span className="skill-box" key={index}>
             <i className={`fa-brands ${smash.icon}`}/>
-            {smash.name}
           </span>  
         ))}
       </div>

@@ -1,0 +1,42 @@
+
+.skills-index {
+    margin-bottom: 35px;
+}
+
+.skills h3 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.skill-box{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1b1b;              
+    border: 1px solid #242323;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover{
+        background-color: #fff;
+        color: #08f;
+    }
+}
+
+.skill-box i {
+    background-color: transparent;
+    color: #08f;
+    font-size: 50px;
+}

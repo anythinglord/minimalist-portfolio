@@ -1,6 +1,6 @@
 import './App.css'
 import { Projects } from './components/Projects'
-import { Skills } from './components/Skills'
+import { Skills } from './components/Skills/Skills'
 
 function App() {
   return (
