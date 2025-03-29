@@ -12,9 +12,18 @@
 .skills-container {
     display: flex;
     justify-content: flex-start;
-    gap: 20px 20px;
+    gap: 15px 25px;
     flex-wrap: wrap;
+    padding: 15px 25px 0 55px;
 }
+
+.skills-container-down {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px 25px;
+    flex-wrap: wrap;
+    padding: 15px 25px 0 15px;
+} 
 
 .skill-box{
     width: 70px;
@@ -26,11 +35,11 @@
     border: 1px solid #242323;
     font-size: 12px;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 14px;
     font-weight: 500;
     cursor: pointer;
     &:hover{
-        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
         color: #08f;
     }
 }

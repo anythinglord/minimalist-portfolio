@@ -3,6 +3,10 @@ interface Skill {
     icon: String
 }
 
+interface Void {
+    name?: string
+}
+
 interface Project {
     title: string
     link?: string
@@ -12,6 +16,8 @@ interface Project {
     notes?: Array<string>
     fav?: boolean 
 }
+
+export const voidSkills = Array.from({ length: 2 }, (v) => { name: `${v}` })
 
 export const SkillSmash: Array<Skill> = [
     { name: 'TensorFlow',icon: 'fa-python' },
